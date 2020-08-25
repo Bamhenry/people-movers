@@ -8,6 +8,7 @@ using System.Web.Security;
 using System.Web.SessionState;
 using System.Data.Entity;
 using PeopleMovers.Models;
+using PeopleMovers.Logic;
 
 namespace PeopleMovers
 {
@@ -21,6 +22,10 @@ namespace PeopleMovers
 
             // Initialize the product database.
             Database.SetInitializer(new ProductDatabaseInitializer());
+
+            // Create the custom role and user.
+            RoleActions roleActions = new RoleActions();
+            roleActions.AddUserAndRole();
         }
     }
 }
