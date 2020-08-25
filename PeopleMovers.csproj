@@ -202,7 +202,7 @@
     <Content Include="Checkout\Web.config" />
     <Content Include="Admin\Web.config" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
-    <Content Include="Images\logo.jpg" />
+    <Content Include="Images\logo.png" />
     <Content Include="ProductDetails.aspx" />
     <Content Include="ProductList.aspx" />
     <Content Include="Scripts\bootstrap.js" />
